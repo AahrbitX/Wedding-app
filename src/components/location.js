@@ -5,11 +5,16 @@ import React from "react";
 
 const Location = () => {
   return (
-    <div className="relative text-right w-full h-[400px]">
-      <div className="overflow-hidden bg-none w-full h-[400px]">
+    <div className="w-full h-[400px] p-20">
+        <h1 className="text-3xl w-full flex justify-center text-black p-10 font-bold">
+          Get Locations for wedding
+        </h1>
+
+
+      <div className="w-full">
         <iframe
           className="w-full h-[400px]"
-          frameBorder="0"
+          frameBorder="1"
           scrolling="no"
           marginHeight="0"
           marginWidth="0"

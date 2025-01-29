@@ -13,10 +13,14 @@ import {
   IconTableColumn,
 } from "@tabler/icons-react";
 
-import image1 from '../../public/images/layer-1.png'
+import image1 from '../../public/images/photos/KSK_4319.jpg'
+import image2 from '../../public/images/photos/IMG-20250127-WA0042.jpg'
+import image3 from '../../public/images/photos/KSK_4458.jpg'
+import image4 from '../../public/images/photos/IMG-20250127-WA0041.jpg'
+import image5 from '../../public/images/photos/KSK_4547.jpg'
 export function Gallery() {
   return (
-    (<BentoGrid className="max-w-4xl mx-auto">
+    (<BentoGrid className="mx-auto">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}
@@ -35,46 +39,22 @@ export function Gallery() {
 
 const items = [
   {
-    title: "The Dawn of Innovation",
-    description: "Explore the birth of groundbreaking ideas and inventions.",
     header: image1,
-    icon: <IconClipboardCopy className="h-4 w-4 text-neutral-500" />,
   },
   {
-    title: "The Digital Revolution",
-    description: "Dive into the transformative power of technology.",
-    header: image1,
-    icon: <IconFileBroken className="h-4 w-4 text-neutral-500" />,
+  
+    header: image2,
   },
   {
-    title: "The Art of Design",
-    description: "Discover the beauty of thoughtful and functional design.",
-    header: image1,
-    icon: <IconSignature className="h-4 w-4 text-neutral-500" />,
+
+    header: image3,
   },
   {
-    title: "The Power of Communication",
-    description:
-      "Understand the impact of effective communication in our lives.",
-    header: image1,
-    icon: <IconTableColumn className="h-4 w-4 text-neutral-500" />,
+
+    header: image5,
   },
   {
-    title: "The Pursuit of Knowledge",
-    description: "Join the quest for understanding and enlightenment.",
-    header: image1,
-    icon: <IconArrowWaveRightUp className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "The Joy of Creation",
-    description: "Experience the thrill of bringing ideas to life.",
-    header: image1,
-    icon: <IconBoxAlignTopLeft className="h-4 w-4 text-neutral-500" />,
-  },
-  {
-    title: "The Spirit of Adventure",
-    description: "Embark on exciting journeys and thrilling discoveries.",
-    header: image1,
-    icon: <IconBoxAlignRightFilled className="h-4 w-4 text-neutral-500" />,
+
+    header: image4,
   },
 ];
