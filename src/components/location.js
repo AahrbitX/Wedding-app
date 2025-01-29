@@ -16,9 +16,6 @@ const Location = () => {
           src="https://maps.google.com/maps?width=600&amp;height=400&amp;hl=en&amp;q=at Our Lady of Sorrows Community Hall, Vellicode &amp;t=&amp;z=12&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
         ></iframe>
       </div>
-      <a href="https://sprunkiplay.com/" className="text-blue-500 hover:underline">
-        Sprunki Game
-      </a>
     </div>
   );
 };
