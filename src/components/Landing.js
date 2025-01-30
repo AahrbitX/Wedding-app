@@ -7,7 +7,7 @@ import lanImage1 from "../../public/images/photos/IMG-20250127-WA0042.jpg"; // F
 
 export function Landing() {
   return (
-    <div className="flex flex-col overflow-hidden">
+    <div className="flex flex-col overflow-hidden landing">
       <ContainerScroll
               titleComponent={
                 <>
@@ -17,7 +17,6 @@ export function Landing() {
                     &#128151;
                     </span> <br/>
                     Labeesh Bin Lal R.V
-      
                   </h1>
                 </>
               }
