@@ -5,7 +5,7 @@ import React from "react";
 const Location = () => {
   return (
     <div className="w-full h-[400px] md:p-10">
-      <h1 className="text-3xl text-center text-black font-bold md:mb-6">
+      <h1 className="text-3xl text-center text-black font-bold mb-6">
         Get Locations for Wedding
       </h1>
       <div className="w-full">
